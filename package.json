@@ -4,7 +4,8 @@
   "description": "Testing webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "keywords": [
     "dill",
@@ -14,7 +15,10 @@
   "author": "Erland Heen Halvorsen",
   "license": "ISC",
   "devDependencies": {
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.0",
     "webpack": "5.94.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   }
 }
